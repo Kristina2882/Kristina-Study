@@ -1,0 +1,24 @@
+using System;
+
+public class Program
+
+{
+    static void Main(string[] args)
+    {
+        double r;
+        double length;
+        double area;
+        double volume;
+        const double PI = 3.1415926535897931;
+        Console.WriteLine("Please enter the radius of the circle");
+        r = Convert.ToDouble(Console.ReadLine());
+        length = 2 * PI * r;
+        area = PI * r * r;
+        volume = (4 / 3 * PI * r * r * r);
+        Console.WriteLine($"The length of the circle is: {length};");
+        Console.WriteLine($"The area of the circle is: {area};");
+        Console.WriteLine($"The volume of the circle is: {volume}.");
+        Console.ReadKey();
+
+    }
+}
