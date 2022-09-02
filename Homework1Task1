@@ -1,0 +1,20 @@
+using System;
+
+public class Program
+
+{
+    static void Main(string[] args)
+    {
+        int a;
+        int perimeter;
+        int square;
+        Console.WriteLine("Enter the lenght of the square's side");
+        a = Convert.ToInt32(Console.ReadLine());
+        perimeter = a * 4;
+        square = a * a;
+        Console.WriteLine("The perimeter of the square is {0} and the square is {1}", perimeter, square);
+        Console.ReadKey();
+
+
+    }
+}
